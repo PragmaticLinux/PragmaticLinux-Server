@@ -1,0 +1,11 @@
+#!/bin/sh
+echo Starting Webmin server in /srv/http/webmin
+trap '' 1
+LANG=
+export LANG
+#PERLIO=:raw
+unset PERLIO
+export PERLIO
+PERLLIB=/srv/http/webmin
+export PERLLIB
+exec '/srv/http/webmin/miniserv.pl' $* /etc/webmin/webmin.conf/miniserv.conf

@@ -1,0 +1,4 @@
+#!/bin/sh
+test -d "/lib/modules/${1}/build" || exit 0
+KERN_DIR="/lib/modules/${1}/build" MODULE_DIR="/lib/modules/${1}/misc" /sbin/rcvboxadd quicksetup
+exit 0

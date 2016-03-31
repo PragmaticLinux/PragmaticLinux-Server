@@ -1,0 +1,10 @@
+man_cmd_sect=man SECTION PAGE
+man_dir=/usr/man:/usr/share/man:/usr/local/man:/usr/local/share/man
+kernel_dir=/usr/src/linux/Documentation
+search_cmd=man -k PAGE
+doc_dir=/usr/doc /usr/share/doc
+man2html_path=man2html
+list_cmd=man -w PAGE
+list_cmd_sect=man -w SECTION PAGE
+howto_dir=/usr/doc/HOWTO /usr/doc/HOWTO/mini /usr/share/doc/HOWTO /usr/share/doc/HOWTO/mini
+man_cmd=man PAGE

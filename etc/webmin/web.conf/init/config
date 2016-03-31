@@ -1,0 +1,17 @@
+order_digits=2
+order=0
+inittab_id=id
+soft_links=1
+shutdown_command=shutdown -h now
+extra_init=/etc/rc.d/rc.local
+no_chkconfig=0
+init_base=/etc/rc.d
+reboot_command=shutdown -r now
+desc=1
+sort_mode=0
+init_dir=/etc/rc.d/init.d
+expert=0
+boot_levels=2 3 5
+status_check=0
+show_opts=0
+atboot_product=webmin

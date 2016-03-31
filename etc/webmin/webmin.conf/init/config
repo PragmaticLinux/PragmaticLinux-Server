@@ -1,0 +1,16 @@
+sort_mode=0
+boot_levels=2 3 5
+soft_links=1
+init_dir=/etc/rc.d/init.d
+desc=1
+inittab_id=id
+expert=0
+extra_init=/etc/rc.d/rc.local
+reboot_command=shutdown -r now
+order=0
+init_base=/etc/rc.d
+shutdown_command=shutdown -h now
+status_check=0
+no_chkconfig=0
+order_digits=2
+show_opts=0

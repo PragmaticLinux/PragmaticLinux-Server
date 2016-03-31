@@ -1,0 +1,28 @@
+This is a revocation certificate for the OpenPGP key:
+
+pub  rsa2048/91DABB57 2016-03-24
+      Key fingerprint = FCD7 DC4F 03BD 81CD 6CE4  4A60 0DC2 050C 91DA BB57
+uid                  Pacman Keyring Master Key <pacman@localhost>
+
+Use it to revoke this key in case of a compromise or loss of
+the secret key.  However, if the secret key is still accessible,
+it is better to generate a new revocation certificate and give
+a reason for the revocation.
+
+To avoid an accidental use of this file, a colon has been inserted
+before the 5 dashes below.  Remove this colon with a text editor
+before making use of this revocation certificate.
+
+:-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2
+Comment: This is a revocation certificate
+
+iQEfBCABCAAJBQJW9Ey2Ah0AAAoJEA3CBQyR2rtXUowH/jIEAUPuoz0l9WjfVoLR
+ufQQjZQ0zBXyjQBz1bgLUnMb0UHpqBnGIwde1ymquqRqRDhVpvEpfFW4iI10blpB
+WiVxWpo1NxlIHcGxf9g6tb5tgs32abZUg5NpwNdolCY1KnA9PQsFVVRmqUcWn6EE
+4+tH9jBjtsiqWwHp4Cnx388aQLVRbNiiBuR+e4382WOD9EzW/kA13hsUkPA2+g0H
+CfMenZvHKs112oL+WM+HzP4hAW1ctYkv/tRqZvgP1me0M53vUEKEva/EpdjmR/kk
+Gv7b5ES/T6lwewZUaFdzPQhKyQ/qGaJY4dW4/xkJLeesV/gUpjVWpS0P2GlDRxbS
+mX4=
+=4taR
+-----END PGP PUBLIC KEY BLOCK-----

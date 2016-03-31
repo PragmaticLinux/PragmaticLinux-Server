@@ -1,0 +1,7 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+# UUID=9259b887-4f3e-4f6a-a1d3-e66d027a4e45
+/dev/sda1           	/         	ext4      	rw,relatime,data=ordered	0 1
+tmpfs	/tmp	tmpfs	size=4G	0	0
