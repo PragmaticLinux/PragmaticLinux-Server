@@ -30,4 +30,4 @@ unset MANPATH
 #@pragmatic
 #Environment Variable
 
-export COMPOSER_HOME=/pls/composer
+export COMPOSER_HOME=/pragmatic-pls/composer
