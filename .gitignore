@@ -11,3 +11,5 @@ tmp/
 usr/
 root/
 var/
+boot/initramfs-linux-fallback.img
+boot/initramfs-linux.img
